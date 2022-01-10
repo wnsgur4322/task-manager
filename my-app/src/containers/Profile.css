@@ -1,0 +1,259 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-box {
+  display: block;
+  margin-top: 10px;
+  width: 100% !important;
+}
+
+.row {
+  margin: 0 auto;
+  margin-bottom: 3px;
+  width: 100%;
+}
+.row.gutters-sm {
+  display: flex;
+  margin: 0 auto;
+}
+
+.usermenu.nav-link {
+  color: #93a3b5 !important;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+}
+.usermenu.nav-link:hover {
+  color: #266867 !important;
+  background-color: #fafcfd;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+}
+.usermenu.nav-link.active {
+  color: #266867 !important;
+  width: 100%;
+  border-left: 2px solid #266867;
+  margin-left: -2px
+}
+
+@media only screen and (min-width: 100px) {
+  .two-button {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .Profile {
+    padding: 10px 0;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100% !important;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .formBox {
+    width: 55% !important;
+    margin: 0 auto;
+  }
+
+  .custom-btn-profile {
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn-profile:hover {
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+  .custom-btn-profile-edit {
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn-profile-edit:hover {
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+
+  .row-profile {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45% !important;
+    height: 100%;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (min-width: 760px) {
+  .Profile {
+    padding: 30px 0;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100% !important;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+
+  .formBox {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .custom-btn-profile {
+    margin: 0 auto;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn-profile:hover {
+    margin: 0 auto;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .two-button {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Profile {
+    padding: 60px 0;
+  }
+  
+  .formBox {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .custom-btn-profile {
+    margin-left: 10px;
+    width: 30%;
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn-profile:hover {
+    margin-left: 10px;
+    width: 30%;
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+  .card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  }
+  .custom-btn-profile-edit {
+    width: 30%;
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn-profile-edit:hover {
+    width: 30%;
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100% !important;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+
+  .gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+  }
+
+  .bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+  .h-100 {
+    height: 100%!important;
+  }
+  .shadow-none {
+    box-shadow: none!important;
+  }
+  .profile-usermenu {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile-usermenu ul li {
+      border: 1px solid #f0f4f7;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .row-profile {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30% !important;
+    height: 100%;
+    align-items: center;
+  }
+}

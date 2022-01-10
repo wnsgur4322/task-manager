@@ -1,0 +1,8 @@
+@media all and (min-width: 280px) {
+        .NotFound {
+                padding: 100px;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+        }
+
+}

@@ -1,0 +1,41 @@
+@media only screen and (min-width: 100px) {
+        .Login {
+          padding: 60px 0;
+          width: 100%;
+        }
+      
+        .Login form {
+          margin: 0 auto;
+          max-width: auto
+        }
+        .custom-btn {
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .custom-btn:hover {
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+}
+
+@media only screen and (min-width: 760px) {
+        .Login {
+          padding: 60px 0;
+          width: 100%;
+        }
+
+        .Login form {
+          margin: 0 auto;
+          max-width: 320px
+        }
+        .custom-btn {
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .custom-btn:hover {
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+}

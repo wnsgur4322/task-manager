@@ -1,0 +1,110 @@
+@media only screen and (min-width: 100px) {
+  .Token {
+    padding: 20px 0;
+    text-align: left;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .two-button {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .formBox {
+    width: 70%;
+  }
+  .row {
+    margin: 0 auto;
+    justify-content:'space-between';
+  }
+  
+  .row-profile {
+    display: inline-flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  
+
+  .Token form {
+    margin: 0 auto;
+  }
+  .custom-btn {
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn:hover {
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+  .confirmCard {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+
+  }
+  
+}
+@media only screen and (min-width: 760px) {
+  .Token {
+    padding: 40px 0;
+    text-align: left;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+
+  .Token form {
+    margin: 0 auto;
+  }
+  .custom-btn {
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn:hover {
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+  .confirmCard {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .Token {
+    padding: 60px 0;
+    text-align: left;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  
+
+  .Token form {
+    margin: 0 auto;
+    max-width: 480px;
+  }
+  .custom-btn {
+    background-color: #266867;
+    border-color: #266867;
+    
+  }
+  .custom-btn:hover {
+    background-color: #c0ca33;
+    border-color: #c0ca33;
+  }
+  .confirmCard {
+    margin: 0 auto;
+    width: 480px;
+    text-align: center;
+
+  }
+
+}

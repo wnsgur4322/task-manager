@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic)
+$titles-font: 20px
+$secondary-text-font: 16px
+$main-font: "Mulish", regular
+$letter-spacing: 1px
+
+.logo
+    width: 150px
+    height: 150px
+    margin: 0 auto
+    margin-left: 20px
+    @media only screen and (min-width: 50px)
+        display: flex
+        width: 50px
+        height: 50px
+        margin-left: 10px
+    @media only screen and (min-width: 768px)
+        display: flex
+        width: 100px
+        height: 100px
+    @media only screen and (min-width: 1024px)
+        display: flex
+        width: 150px
+        height: 150px
+
+.first-row
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: inherit
+    @media only screen and (min-width: 50px)
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+    @media only screen and (min-width: 768px)
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+    @media only screen and (min-width: 1024px)
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+
+.footer-container
+    margin-top: 20px
+    height: fit-content
+    width: fit-content
+    justify-content: space-between
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+
+.columns
+    margin-right: 0px
+    margin-left: 0px
+    @media only screen and (min-width: 50px)
+        margin-right: 5px
+        margin-left: 5px
+    @media only screen and (min-width: 768px)
+        margin-right: 10px
+        margin-left: 10px
+    @media only screen and (min-width: 1024px)
+        margin-right: 25px
+        margin-left: 25px
+
+.social-media
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin-top: 15px
+    column-gap: 15px
+    @media only screen and (min-width: 50px)
+        display: flex
+        margin-top: 5px
+    @media only screen and (min-width: 768px)
+        display: flex
+        margin-top: 10px
+    @media only screen and (min-width: 1024px)
+        width: auto
+        display: flex
+        justify-content: center
+        margin: 0 auto
+
+
+.social-media-col
+    display: inline-flex
+    flex-direction: column
+    justify-content: center
+    margin: 0 auto
+    @media only screen and (min-width: 50px)
+        max-width: 280px
+        display: inline-flex
+        flex-direction: column
+    @media only screen and (min-width: 768px)
+        display: inline-flex
+        flex-direction: column
+    @media only screen and (min-width: 1024px)
+        display: inline-flex
+        flex-direction: column
+
+.img-logo
+    max-height: 70px
+    min-height: 70px
+    border-radius: 35%
+    width: auto
+
+.socialMediaLogo
+    margin: auto 0
+
+.first-title
+    font-weight: bolder
+    font-size: auto
+    margin: 0 auto
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 10px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 15px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $titles-font 
+        letter-spacing: $letter-spacing
+
+.second-title
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 10px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 15px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $titles-font 
+        letter-spacing: $letter-spacing
+
+.third-title
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 10px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 15px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $titles-font 
+        letter-spacing: $letter-spacing
+
+.stay-connected-title
+    font-family: $main-font
+    font-size: $titles-font 
+    align-self: center
+    margin: 0 auto
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 10px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 15px 
+        letter-spacing: $letter-spacing
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $titles-font 
+        letter-spacing: $letter-spacing
+
+.description
+    font-family: $main-font
+    font-size: $secondary-text-font
+    letter-spacing: $letter-spacing
+    margin-right: 30px
+    margin-bottom: 10px
+    text-align: justify
+    margin: 0 auto
+
+.resources
+    font-family: $main-font
+    font-size: $secondary-text-font
+    letter-spacing: $letter-spacing
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 8px 
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 13px 
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $secondary-text-font
+
+.resources:hover
+    text-decoration: none
+    font-weight: bolder
+
+.copyright
+    text-align: center
+    font-size: auto
+    margin-top: 10px
+    letter-spacing: $letter-spacing
+    @media only screen and (min-width: 50px)
+        font-family: $main-font
+        font-size: 8px 
+    @media only screen and (min-width: 768px)
+        font-family: $main-font
+        font-size: 13px 
+    @media only screen and (min-width: 1024px)
+        font-family: $main-font
+        font-size: $secondary-text-font
+
+.col-about
+    display: flex
+    flex-direction: column

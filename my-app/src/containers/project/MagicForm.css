@@ -1,0 +1,339 @@
+@media only screen and (min-width: 100px) {
+        .two-button {
+          margin: 0 auto;
+          text-align: center;
+          width: 100%;
+        }
+
+        .button-group {
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+          padding: 0;
+        }
+        .button-menu {
+          width: 100%;
+          height: 100%;
+          color: black;
+          border: none;
+        }
+        .button-menu:hover {
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+        .role-remove:hover {
+          color: black;
+        }
+
+        .text-bold {
+          color: black;
+          font-weight: bold !important;
+        }
+
+        .Project {
+          padding: 60px 0;
+          margin: 0 auto;
+        }
+      
+        .Project form {
+          margin-left: 10px;
+        }
+
+        .formBox-multi {
+          max-width: 50%;
+          margin: 0 auto;
+          padding: 0;
+        }
+        .formBox-date {
+                max-width: 50%;
+                margin: 0 auto;
+                padding: 0;
+        }
+        .inputBox {
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+        }
+        .formBox-single {
+                max-width: 80%;
+                margin: 0 auto;
+        }
+
+        .custom-btn-profile {
+          width: 100%;
+          margin-right: 10px;
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .dropdown-toggle:after {
+          content: none;
+
+        }
+        .orgMenu {
+          background-color: white;
+          border: none;
+          cursor: pointer;
+        }
+        .orgMenu:hover {
+          background-color: gainsboro;
+          border: none;
+          width: 100%;
+          height: 100%;
+        }
+
+        .optionDropdown {
+          background-color: white;
+          border: none;
+          
+        }
+        .optionDropdown:hover {
+          background-color: gainsboro;
+          border: none;
+          border-radius: 0.25rem;
+        }
+
+        .InvitBox {
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          word-wrap: break-word;
+          background-color: #fff;
+          background-clip: border-box;
+          border: 0 solid rgba(0,0,0,.125);
+          border-radius: .25rem;
+        }
+
+        .custom-btn-profile:hover {
+          width: 30%;
+          margin-right: 10px;
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+        .card-org {
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+        }
+        .card-org {
+          margin-bottom: 5px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          word-wrap: break-word;
+          background-color: #fff;
+          background-clip: border-box;
+          border: 0 solid rgba(0,0,0,.125);
+          border-radius: .25rem;
+        }
+
+        .card-list {
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+        }
+
+        .card-list {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          word-wrap: break-word;
+          background-color: #fff;
+          background-clip: border-box;
+          border: 0 solid rgba(0,0,0,.125);
+          border-radius: .25rem;
+        }
+
+        .card-body {
+          flex: 1 1 auto;
+          min-height: 1px;
+          padding: 1rem;
+        }
+
+        .gutters-sm {
+          margin-right: -8px;
+          margin-left: -8px;
+        }
+
+        .gutters-sm>.col, .gutters-sm>[class*=col-] {
+          padding-right: 8px;
+          padding-left: 8px;
+        }
+        .mb-3, .my-3 {
+          margin-bottom: 1rem!important;
+        }
+
+        .bg-gray-300 {
+          background-color: #e2e8f0;
+        }
+        .h-100 {
+          height: 100%!important;
+        }
+        .shadow-none {
+          box-shadow: none!important;
+        }
+        .form-line {
+          border: 1px solid black;
+          border-radius: .5rem;
+          width: 100%;
+          margin: 0 auto;
+          margin-top: 10px;
+      }
+      .form-list {
+        font-size: medium;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+      }
+}
+
+@media only screen and (min-width: 760px) {
+    .InvitBox {
+      box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+    }
+    .card-org {
+      margin-bottom: 5px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+    }
+
+    .card-list {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+    }
+    .form-list {
+      font-size: medium;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+      .InvitBox {
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+      }
+      .card-org {
+        margin-right: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+      }
+
+      .card-list {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+      }
+      .form-list {
+        font-size: medium;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+      }
+}
+
+.row {
+  margin: 0 auto;
+  justify-content:'space-between';
+}
+
+.row-profile {
+  display: inline-flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.usermenu.nav-link {
+  color: #93a3b5 !important;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+}
+.usermenu.nav-link:hover {
+  color: #266867 !important;
+  background-color: #fafcfd;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+}
+.usermenu.nav-link.active {
+  color: #266867 !important;
+  width: 100%;
+  border-left: 2px solid #266867;
+  margin-left: -2px
+}

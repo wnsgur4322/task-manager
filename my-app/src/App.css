@@ -1,0 +1,28 @@
+.App {
+        width: 100% !important;
+}
+
+.color-nav {
+        background-color: #f9a825;
+}
+.nav-link {
+        color: white !important;
+}
+.nav-link:hover {
+        color: black !important;
+}
+.navitem:global(.active) {
+        color: black !important;
+}
+.NavDropdown-item.focus {
+        background-color: #f9a825;
+        color: white;
+        width: 100%;
+}
+
+.NavDropdown-item.active {
+        background-color: #f9a825;
+        color: white;
+        width: 100%;
+      }
+      

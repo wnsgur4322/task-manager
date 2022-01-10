@@ -1,0 +1,89 @@
+@media only screen and (min-width: 100px) {
+        .Signup {
+          padding: 20px 0;
+          text-align: left;
+          max-width: 320px;
+          margin: 0 auto;
+        }
+        
+      
+        .Signup form {
+          margin: 0 auto;
+        }
+        .custom-btn {
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .custom-btn:hover {
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+        .confirmCard {
+          margin: 0 auto;
+          width: auto;
+          text-align: center;
+
+        }
+        
+}
+@media only screen and (min-width: 760px) {
+        .Signup {
+          padding: 40px 0;
+          text-align: left;
+          max-width: 480px;
+          margin: 0 auto;
+        }
+        
+
+        .Signup form {
+          margin: 0 auto;
+        }
+        .custom-btn {
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .custom-btn:hover {
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+        .confirmCard {
+          margin: 0 auto;
+          width: auto;
+          text-align: center;
+
+        }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+        .Signup {
+          padding: 60px 0;
+          text-align: left;
+          max-width: 480px;
+          margin: 0 auto;
+        }
+        
+
+        .Signup form {
+          margin: 0 auto;
+          max-width: 480px;
+        }
+        .custom-btn {
+          background-color: #266867;
+          border-color: #266867;
+          
+        }
+        .custom-btn:hover {
+          background-color: #c0ca33;
+          border-color: #c0ca33;
+        }
+        .confirmCard {
+          margin: 0 auto;
+          width: 480px;
+          text-align: center;
+
+        }
+  
+}
